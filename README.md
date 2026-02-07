@@ -4,6 +4,13 @@ This project analyzes a used car dataset to understand key factors influencing c
 The focus is on data preparation, exploratory data analysis, feature engineering, and
 a comparison of regression models.
 
+## Feature Importance
+A Random Forest model was used to inspect feature importance.
+The analysis showed that variables such as model year, gearbox type,
+and mileage were among the most influential features.
+However, the results also highlight that feature importance reflects
+model usage rather than causal relationships.
+
 ## Project Overview
 - Data cleaning and preparation
 - Exploratory data analysis (EDA)
@@ -29,3 +36,6 @@ are largely linear and that the dataset size is limited for more complex models.
 ## Notes
 This project is intended as an analysis and learning project.
 The models are not meant for real-world price prediction.
+
+## Data Source
+The dataset was obtained from Kaggle (used cars dataset).
